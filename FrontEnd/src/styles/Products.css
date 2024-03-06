@@ -1,0 +1,219 @@
+.filters {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+}
+
+
+.product-list {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-card {
+    margin: 10px 0; /* Espacio entre productos (arriba y abajo) */
+    background-color:  rgb(255,255,255, 0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    border: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: 30% 50% 20%; /* Divide el producto en tres columnas */
+    max-width: 1000px; /* Ancho máximo del rectángulo del producto */
+    align-items: center;
+  }
+  
+  .product-image img {
+    max-width: 200px; /* Establece el ancho máximo en 200px */
+    max-height: 200px; /* Establece la altura máxima en 200px */
+    width: auto; /* Permite que el ancho se ajuste automáticamente */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .product-details {
+    padding: 10px;
+  }
+  
+  .product-actions .btn-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .product-actions .btn-danger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .product-actions .btn-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+#p-price {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#p-category {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#p-brand {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#h3-name {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#ModalDeleteProduct {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  #ModalDeleteProduct .modal-content {
+    background-color: rgba(15, 15, 15, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+  
+  #ModalDeleteProduct .modal-header {
+    background-color: transparent;
+    border: none;
+  }
+  
+  #ModalDeleteProduct .modal-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: #ff4b4b;
+  }
+  
+  #ModalDeleteProduct .modal-body {
+    font-size: 22px;
+    margin: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #ModalDeleteProduct .modal-footer {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Estilos para los botones del modal */
+#ModalDeleteProduct .btn-primary,
+#ModalDeleteProduct .btn-danger {
+  width: 40%; /* Ambos botones ocupan el 48% del ancho del contenedor */
+  margin: 5px; /* Agrega un pequeño margen entre los botones */
+  background-color: #cacaca; /* Color de fondo del botón gris */
+  color: #fff; /* Color del texto en los botones */
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.1s;
+  display: inline-block; /* Permite que los botones estén en línea */
+  text-align: center; /* Centra el contenido del botón horizontalmente */
+}
+
+#ModalDeleteProduct .btn-primary {
+  color: black;
+  border-color: rgb(189, 189, 189);
+  margin-right: 0px;
+  margin-left: 200px;
+  margin-top: -65px;
+  background-color: #cacaca; /* Color de fondo del botón gris */
+}
+
+#ModalDeleteProduct .btn-danger {
+  margin-right: 200px;
+  margin-left: 0px; /* Justifica el botón derecho a la derecha */
+  background-color: #d40700; /* Color de fondo del botón rojo */
+}
+
+#ModalDeleteProduct .btn-primary:hover {
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  background-image: linear-gradient(to top, #7c7c7c, transparent);
+}
+
+#ModalDeleteProduct .btn-danger:hover {
+  box-shadow: 0 0 10px rgb(255, 67, 67);
+  background-image: linear-gradient(to top, #642222, transparent);
+}
+
+#search {
+  color: black;
+  width: 100%;
+  margin-right: 0;
+}
+
+#search:focus {
+  border-color: white;
+}
+
+/* Establecer un ancho fijo para el campo de búsqueda y el select */
+.filters input[type="search"],
+.filters select {
+  width: 100%; /* Ajustar el ancho al 100% del contenedor */
+  margin-right: 0; /* Eliminar el margen derecho */
+}
+
+#ModalEditingProduct {
+  .modal-content {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Borde nulo */
+  }
+  
+  #ModalEditingProduct  .modal-dialog {
+    max-width: none; /* Ancho máximo sin restricciones */
+  }
+}
+
+.product-actions .material-symbols-outlined {
+  font-size: 40px;
+}

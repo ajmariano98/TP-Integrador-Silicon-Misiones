@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#NavBar {
+    background-color: #292929;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    position: fixed;
+    top: 0; /* Coloca la barra en la parte superior de la ventana */
+    left: 0; /* Puedes ajustar esto para controlar la posición horizontal */
+    right: 0; /* Puedes ajustar esto para controlar la posición horizontal */
+    z-index: 999; /* Asegura que la barra de navegación esté por encima de otros elementos */
+}
+
+#search-form {
+    position: relative;
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    width: 300px; /* Establece el ancho deseado para el formulario */
+  }
+
+nav {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 1%;
+    
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+  .nav-link {
+    color: rgb(255, 255, 255) !important;
+    display: flex; /* Utiliza display flex para centrar horizontalmente los elementos internos */
+    align-items: center; /* Centra verticalmente los elementos internos en el enlace */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+  }
+
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 0 10px rgb(247, 247, 247);
+    border-radius: 10px
+}
+
+.custom-navbar .material-symbols-outlined {
+    font-size: 40px !important;
+    /* Otros estilos para el icono aquí */
+  }
+
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+
+.custom-navbar .btn.btn-outline-success {
+    background-color: #272727 !important;
+    border-color: #ffffff;
+    color: white;
+}
+
+.custom-navbar .btn.btn-outline-success:hover {
+    background-image: linear-gradient(to top, #646464, transparent);
+    border-color: #ffffff;
+    color: white;
+}
+
+.custom-navbar .form-control:focus {
+    color: black;
+    border-color: white; /* Cambia el color del borde al blanco cuando el input está enfocado */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Cambia el brillo del borde cuando el input está enfocado */
+}
+
+.nav-item.dropdown {
+    margin-bottom: 0;
+}
+
+.navbar-nav.ml-auto {
+    display: flex;
+    align-items: center;
+}
+

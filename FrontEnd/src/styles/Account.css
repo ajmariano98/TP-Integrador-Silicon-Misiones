@@ -1,0 +1,47 @@
+.account-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 60vh; /* Ocupa toda la altura de la ventana */
+  }
+  
+.account-form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    width: 700px;
+    background-color: rgb(29, 29,29, 0.9);
+    box-shadow: 0 0 10px black;
+  }
+  
+  .account-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .account-form input[type=text], .account-form input[type=email], .account-form input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .account-form  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .account-form  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .account-form h2 {
+    text-align: center;
+  }

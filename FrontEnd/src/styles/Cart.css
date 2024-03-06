@@ -1,0 +1,67 @@
+/* Agrega estilos generales al carrito */
+#cart-container {
+    color: white;
+    padding: 20px 15px; /* Reduce el relleno horizontal para hacerlo más angosto */
+    background-color: rgba(29, 29, 29, 0.8);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    max-width: 800px; /* Establece un ancho máximo para el formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+  
+  #cart-container  h2 {
+    text-align: center;
+  }
+  
+  /* Estilos de la tabla */
+  #cart-container  .table {
+    background-color: #fff;
+  }
+  
+  /* Estilos de la tabla de encabezado */
+  #cart-container .table thead {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  /* Estilos de los botones */
+  #cart-container .btn {
+    margin: 5px;
+  }
+  
+  /* Estilos para los botones "COMPRAR" y "LIMPIAR" */
+  #cart-container  .btn-success {
+    background-color: #28a745;
+  }
+  
+  #cart-container  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  /* Estilos para el total */
+  #cart-container  p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para las imágenes de productos */
+  #cart-container  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  /* Estilos para la fila con los botones */
+  #cart-container .row.justify-content-end {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el contenedor de los botones */
+  #cart-container  .col-md-4 {
+    text-align: right;
+  }
+  

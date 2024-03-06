@@ -1,0 +1,94 @@
+/* Estilos para el formulario de registro */
+#upload-product-form {
+    color: white;
+    padding: 20px 15px; /* Reduce el relleno horizontal para hacerlo más angosto */
+    background-color: rgba(29, 29, 29, 0.9);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    max-width: 800px; /* Establece un ancho máximo para el formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  #upload-product-form h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  #upload-product-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  #upload-product-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #upload-product-form .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  #upload-product-form .form-control:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: inset 0px -2px #80bdff;
+  }
+  
+  /* Estilos para el campo de descripción */
+  #upload-product-form textarea {
+    height: 150px; /* Aumenta la altura del textarea */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+    resize: vertical; /* Permite redimensionar verticalmente */
+  }
+  
+  /* Estilos para los botones en el formulario de registro */
+  #upload-product-form button {
+    background-color: #cacaca;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem; /* Aumenta el relleno para hacer los botones más grandes */
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  #upload-product-form button.cancel {
+    background-color: #d40700;
+  }
+  
+  #upload-product-form button.save {
+    background-color: #007bff; /* Cambia el color del botón "Guardar" */
+  }
+  
+  /* Estilo para justificar los botones */
+  #upload-product-form .btn-large {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Ajusta el ancho de los botones */
+  #upload-product-form button.cancel {
+    margin-left: 50px;
+    font-size: 40px;
+    order: 2; /* Cambia el orden para que "Limpiar" esté a la derecha */
+  }
+  
+  #upload-product-form button.save {
+    margin-right: 50px;
+    font-size: 40px;
+    order: 1; /* Cambia el orden para que "Cargar" esté a la izquierda */
+  }
+  

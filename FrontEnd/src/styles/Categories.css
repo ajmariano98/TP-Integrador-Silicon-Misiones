@@ -1,0 +1,194 @@
+
+  /* Estilos para el modal de eliminación similar al cuadro de inicio de sesión */
+ 
+  #ModalDelete {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  #ModalDelete .modal-content {
+    background-color: rgba(15, 15, 15, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+  
+  #ModalDelete .modal-header {
+    background-color: transparent;
+    border: none;
+  }
+  
+  #ModalDelete .modal-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: #ff4b4b;
+  }
+  
+  #ModalDelete .modal-body {
+    font-size: 22px;
+    margin: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #ModalDelete .modal-footer {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Estilos para los botones del modal */
+#ModalDelete .btn-primary,
+#ModalDelete .btn-danger {
+  width: 40%; /* Ambos botones ocupan el 48% del ancho del contenedor */
+  margin: 5px; /* Agrega un pequeño margen entre los botones */
+  background-color: #cacaca; /* Color de fondo del botón gris */
+  color: #fff; /* Color del texto en los botones */
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.1s;
+  display: inline-block; /* Permite que los botones estén en línea */
+  text-align: center; /* Centra el contenido del botón horizontalmente */
+}
+
+#ModalDelete .btn-primary {
+  color: black;
+  border-color: rgb(189, 189, 189);
+  margin-right: 0px;
+  margin-left: 200px;
+  margin-top: -65px;
+  background-color: #cacaca; /* Color de fondo del botón gris */
+}
+
+#ModalDelete .btn-danger {
+  margin-right: 200px;
+  margin-left: 0px; /* Justifica el botón derecho a la derecha */
+  background-color: #d40700; /* Color de fondo del botón rojo */
+}
+
+#ModalDelete .btn-primary:hover {
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  background-image: linear-gradient(to top, #7c7c7c, transparent);
+}
+
+#ModalDelete .btn-danger:hover {
+  box-shadow: 0 0 10px rgb(255, 67, 67);
+  background-image: linear-gradient(to top, #642222, transparent);
+}
+
+
+.categories-row {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color: rgba(29, 29, 29, 0.9);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 2%;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.categories-row table {
+  font-size: 18px;
+  border-radius: 10px;
+  padding-bottom: 20px; /* Ajusta el padding para un aspecto más compacto */
+  flex-direction: column;
+}
+
+.categories-row tbody tr td {
+
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  text-justify: auto;
+}
+
+.categories-row tbody tr td button {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+#btn-delete-category:hover {
+  box-shadow: 0 0 20px rgba(255, 147, 147, 0.9);
+}
+
+#btn-edit-category:hover {
+  box-shadow: 0 0 20px rgba(156, 207, 255, 0.9);
+}
+
+#btn-save-category:hover {
+  box-shadow: 0 0 20px rgba(95, 255, 135, 0.9);
+}
+
+.create-category-row {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color: rgba(29, 29, 29, 0.9);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.create-category-row {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 600;
+  background-color: rgba(29, 29, 29, 0.9);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+#btn-create-category {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  width: 240px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#input-create-category {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#access-denied {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-shadow: 0 0 10px rgb(0,0,0, 1);
+  text-align: center;
+  background-color: rgb(29,29,29, 0.9);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 10px rgb(0,0,0, 0,9);
+}
